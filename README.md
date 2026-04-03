@@ -43,7 +43,9 @@ salesforce/
 ### 1. Install WifiPumpkin3
 
 git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git  
+
 cd WiFi-Pumpkin  
+
 sudo python3 setup.py install  
 
 ### 2. Locate the CaptiveFlask plugin directory
