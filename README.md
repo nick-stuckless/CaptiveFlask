@@ -40,12 +40,14 @@ salesforce/
     login.html - The login page rendered by CaptiveFlask
     
     login_successful.html - The login success page rendered by CaptiveFlask
-    
 
-  salesforce.py - The plugin logic (routes, rendering, form handling)
-  salesforce.zip - All parts compressed and ready to go
-  README.md  
-  .gitattributes
+  salesforce.py - The plugin logic (routes, rendering, form handling)
+
+  salesforce.zip - All parts compressed and ready to go
+
+  README.md - You are here
+  .gitattributes
+
 ---
 
 ## Getting started
