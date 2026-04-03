@@ -25,14 +25,22 @@ salesforce/
   static/
   
     css/
+    
       styles.css - Styling
+      
     img/
+    
       login-slack-close-fg.png - Salesforce logo
+      
       logo214.svg - Salesforce logo
+      
 
   templates/
+  
     login.html - The login page rendered by CaptiveFlask
+    
     login_successful.html - The login success page rendered by CaptiveFlask
+    
 
   salesforce.py - The plugin logic (routes, rendering, form handling)
   salesforce.zip - All parts compressed and ready to go
