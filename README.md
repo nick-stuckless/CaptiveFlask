@@ -20,20 +20,22 @@ This tutorial is intentionally approachable — no prior experience with Flask o
 
 ## Repository contents
 
-salesforce/  
-  static/  
-    css/  
-      styles.css - Styling 
-    img/  
-      login-slack-close-fg.png - Salesforce logo 
+salesforce/
+
+  static/
+  
+    css/
+      styles.css - Styling
+    img/
+      login-slack-close-fg.png - Salesforce logo
       logo214.svg - Salesforce logo
 
-  templates/  
-    login.html - The login page rendered by CaptiveFlask 
-    login_successful.html - The login success page rendered by CaptiveFlask 
+  templates/
+    login.html - The login page rendered by CaptiveFlask
+    login_successful.html - The login success page rendered by CaptiveFlask
 
   salesforce.py - The plugin logic (routes, rendering, form handling)
-  salesforce.zip - All parts compressed and ready to go 
+  salesforce.zip - All parts compressed and ready to go
   README.md  
   .gitattributes
 ---
@@ -48,13 +50,16 @@ cd WiFi-Pumpkin
 
 sudo python3 setup.py install  
 
+
 ### 2. Locate the CaptiveFlask plugin directory
 
 ~/.config/wifipumpkin3/captiveflask/plugins/
 
+
 ### 3. Drop in the custom plugin
 
 cp -r CaptiveFlask/* ~/.config/wifipumpkin3/captiveflask/plugins/
+
 
 ### 4. Launch WifiPumpkin3
 
